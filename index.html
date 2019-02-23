@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FSDI 106 Lab 1</title>
+    <link href='bootstrap.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    <!---Link Styles-->
+</head>
+
+<body>
+    <div class='container'>
+        <h1 id='mainH1'>To Do App FSDI 106 Lab 1</h1>
+
+        <hr>
+
+        <div class='row'>
+            <div class='col-lg-6 offset-lg-3'>
+                <div class='capture'>
+                    <input type='text' id='txtText' placeholder='Add a Todo'>
+                    <button id='btnAdd' class='btn-md btn-success btn-save'>Add Todo</button>
+                    <br>
+                    <br>
+                    <label for="imp">Select Importance</label>
+                    <label class="radio-inline"><input type="radio" id='rd1' name='optradio'>High</label>
+                    <label class="radio-inline"><input type="radio" id='rd2' name='optradio'>Medium</label>
+                    <label class="radio-inline"><input type="radio" id='rd3' name='optradio'>Low</label>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class = "col-lg-2 offset-lg-5 ">
+                    <ul class="list-group" id='list'></ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Link Scripts Jquery First-->
+    <script src="jquery-3.3.1.min.js"></script>
+    <!---BootStrap-->
+    <!--Then any other library-->
+    <!--Then your own code-->
+    <script src="script.js"></script>
+</body>
+
+</html>

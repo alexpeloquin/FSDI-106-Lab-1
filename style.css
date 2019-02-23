@@ -1,0 +1,20 @@
+.capture {
+    padding: 10px 20px;
+    background-color: #ebd6b1;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  
+}
+h1 {
+    text-align: center;
+    color: #b9d8af
+}
+
+li button {
+    float:right;
+    margin: -5px;
+}
+
+.btn-md{
+    float:right;    
+}
