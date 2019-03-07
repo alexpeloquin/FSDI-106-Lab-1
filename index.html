@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FSDI 106 Lab 1</title>
+    <title>Session 1 Lab</title>
     <link href='bootstrap.css' rel='stylesheet'>
     <link href="style.css" rel="stylesheet">
-    <!---Link Styles-->
 </head>
 
 <body>
     <div class='container'>
-        <h1 id='mainH1'>To Do App FSDI 106 Lab 1</h1>
+        <h1 id='mainH1'>To Do Application </h1>
+        <h5>FSDI 106 Lab Session 1</h5>
 
         <hr>
 
@@ -24,17 +24,18 @@
                     <button id='btnAdd' class='btn-md btn-success btn-save'>Add Todo</button>
                     <br>
                     <br>
-                    <label for="imp">Select Importance</label>
-                    <label class="radio-inline"><input type="radio" id='rd1' name='optradio'>High</label>
-                    <label class="radio-inline"><input type="radio" id='rd2' name='optradio'>Medium</label>
-                    <label class="radio-inline"><input type="radio" id='rd3' name='optradio'>Low</label>
-                    
+                    Importance: <select id='selImp' class='form-control'>
+                        <option>High</option>
+                        <option>Med</option>
+                        <option>Low</option>
+                    </select>
+
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class = "col-lg-2 offset-lg-5 ">
-                    <ul class="list-group" id='list'></ul>
+            <div class="col-lg-2 offset-lg-5 ">
+                <ul class="list-group" id='list'></ul>
             </div>
         </div>
 
